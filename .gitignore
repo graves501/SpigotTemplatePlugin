@@ -1,0 +1,31 @@
+### Java ###
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+### Intellij ###
+.idea/
+
+## File-based project format:
+*.iws
+
+# IntelliJ
+/out/
+/target/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+### Intellij Patch ###
+*.iml
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
