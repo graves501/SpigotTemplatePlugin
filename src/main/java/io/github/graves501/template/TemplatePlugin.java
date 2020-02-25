@@ -1,4 +1,4 @@
-package com.example.template;
+package io.github.graves501.template;
 
 import org.bukkit.plugin.java.JavaPlugin;
 
