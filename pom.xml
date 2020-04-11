@@ -22,7 +22,7 @@
     <properties>
         <!--  Author and MainClass are used in plugin.yml -->
         <author>graves501</author>
-        <mainClass>io.github.graves501.TemplatePlugin</mainClass>
+        <mainClass>io.github.graves501.template.TemplatePlugin</mainClass>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
@@ -49,6 +49,15 @@
                 <version>1.15.2-R0.1-SNAPSHOT</version>
                 <scope>provided</scope>
         </dependency>
+
+        <!-- Lombok-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
+        </dependency>
+
     </dependencies>
 
     <build>
